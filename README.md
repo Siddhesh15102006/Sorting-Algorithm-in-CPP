@@ -20,16 +20,18 @@ Each of these algorithms provides a unique way to sort data and has its advantag
 ## ✅ Q1. Quick Sort
 ---
 ### 📌 Syntax
+```cpp
 void quickSort(int arr[], int low, int high);
 int partition(int arr[], int low, int high);
-
+```
 🧠 Logic
+```cpp
 Choose a pivot element.
 Partition the array such that:
 Elements < pivot go to the left
 Elements > pivot go to the right
 Recursively sort the subarrays.
-
+```
 ### 💻 Code
 ```cpp
 #include <iostream>
@@ -81,12 +83,15 @@ int main() {
 ## ✅ Q2. Selection Sort
 
 ### 📌 Syntax
+```cpp
 void selectionSort(int arr[], int n);
-
+```
 🧠 Logic
+```cpp
 Find the minimum element in the unsorted part.
 Swap it with the first unsorted element.
 Repeat for the rest of the array.
+```
 
 ### 💻 Code
 ```cpp
@@ -129,12 +134,15 @@ int main() {
 ## ✅ Q3. Bubble Sort
 
 ### 📌 Syntax
+```cpp
 void bubbleSort(int arr[], int n);
-
+```
 🧠 Logic
+```cpp
 Repeatedly compare adjacent elements.
 Swap if they are in the wrong order.
 Continue until the array is sorted.
+```
 
 ### 💻 Code
 ```cpp
