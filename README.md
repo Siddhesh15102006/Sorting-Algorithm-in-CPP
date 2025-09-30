@@ -22,6 +22,7 @@ Each of these algorithms provides a unique way to sort data and has its advantag
 ### 📌 Syntax
 void quickSort(int arr[], int low, int high);
 int partition(int arr[], int low, int high);
+
 🧠 Logic
 Choose a pivot element.
 Partition the array such that:
